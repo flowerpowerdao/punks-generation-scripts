@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "generator"
+version = "0.1.0"
+description = ""
+authors = ["Moritz Fuller <fullermoritz@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lxml = "^4.6.3"
+cssutils = "^2.3.0"
+beautifulsoup4 = "^4.10.0"
+matplotlib = "^3.5.1"
+numpy = "^1.22.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+yapf = "^0.31.0"
+autopep8 = "^1.6.0"
+black = {version = "^22.1.0", allow-prereleases = true}
+
+[tool.poetry.scripts]
+generator = 'ethflower_generator.generator:stop_mint
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

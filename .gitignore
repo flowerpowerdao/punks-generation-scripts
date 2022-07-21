@@ -1,0 +1,14 @@
+assets
+.dfx
+.DS_Store
+mint
+mint.zip
+identity.pem
+__pycache__
+punks.csv
+punks.json
+triple_distribution.png
+.venv
+assets.zip
+.pytest_cache
+temp
